@@ -1,0 +1,21 @@
+image_width: 640
+image_height: 480
+# The camera name is fixed. The color camera is rgb_camera, the depth/IR camera name is ir_camera
+camera_name: rgb_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [527.013, 0, 330.9551, 0, 526.6927, 225.9335, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0845, -0.2303, 0.0, 0.0, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [0.999973, 0.00612598, -0.00406652, -0.00610201, 0.999964, 0.00588094, 0.0041024, -0.00585596, 0.999974 ]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [527.013, 0, 330.9551, 0, 0, 526.6927, 225.9335, 0, 0, 0, 1, 0]
